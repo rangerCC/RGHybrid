@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3299A7C2061D658008CEC8A /* RGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A7A2061D658008CEC8A /* RGCache.h */; };
+		A3299A7D2061D658008CEC8A /* RGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A7B2061D658008CEC8A /* RGCache.m */; };
+		A3299A802061D660008CEC8A /* RGBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A7E2061D660008CEC8A /* RGBridge.h */; };
+		A3299A812061D660008CEC8A /* RGBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A7F2061D660008CEC8A /* RGBridge.m */; };
+		A3299A842061D677008CEC8A /* RGEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A822061D677008CEC8A /* RGEngine.h */; };
+		A3299A852061D677008CEC8A /* RGEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A832061D677008CEC8A /* RGEngine.m */; };
+		A3299A882061D685008CEC8A /* RGPerf.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A862061D685008CEC8A /* RGPerf.h */; };
+		A3299A892061D685008CEC8A /* RGPerf.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A872061D685008CEC8A /* RGPerf.m */; };
+		A3299A8D2061D6C2008CEC8A /* RGUIWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A8B2061D6C2008CEC8A /* RGUIWebView.h */; };
+		A3299A8E2061D6C2008CEC8A /* RGUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A8C2061D6C2008CEC8A /* RGUIWebView.m */; };
+		A3299A952061D6FC008CEC8A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3299A942061D6FB008CEC8A /* WebKit.framework */; };
+		A3299A982061D712008CEC8A /* RGWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A962061D712008CEC8A /* RGWKWebView.h */; };
+		A3299A992061D712008CEC8A /* RGWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A972061D712008CEC8A /* RGWKWebView.m */; };
+		A3299A9C2061DAF0008CEC8A /* RGWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A9A2061DAF0008CEC8A /* RGWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3299A9D2061DAF0008CEC8A /* RGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A9B2061DAF0008CEC8A /* RGWebView.m */; };
+		A3299AA42061DC4F008CEC8A /* RGBridgeExcutor.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299AA22061DC4F008CEC8A /* RGBridgeExcutor.h */; };
+		A3299AA52061DC4F008CEC8A /* RGBridgeExcutor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299AA32061DC4F008CEC8A /* RGBridgeExcutor.m */; };
+		A3299AA82061DCBE008CEC8A /* RGDemoWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299AA72061DCBE008CEC8A /* RGDemoWebController.m */; };
 		A3AF340C20408194002685CB /* RGHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AF340220408194002685CB /* RGHybrid.framework */; };
 		A3AF341120408194002685CB /* RGHybridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF341020408194002685CB /* RGHybridTests.m */; };
 		A3AF341320408194002685CB /* RGHybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AF340520408194002685CB /* RGHybrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3AF3424204081A2002685CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF3423204081A2002685CB /* AppDelegate.m */; };
 		A3AF3427204081A2002685CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF3426204081A2002685CB /* ViewController.m */; };
-		A3AF342A204081A2002685CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AF3428204081A2002685CB /* Main.storyboard */; };
 		A3AF342C204081A2002685CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AF342B204081A2002685CB /* Assets.xcassets */; };
-		A3AF342F204081A2002685CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AF342D204081A2002685CB /* LaunchScreen.storyboard */; };
 		A3AF3432204081A2002685CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF3431204081A2002685CB /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +45,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3299A7A2061D658008CEC8A /* RGCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGCache.h; sourceTree = "<group>"; };
+		A3299A7B2061D658008CEC8A /* RGCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGCache.m; sourceTree = "<group>"; };
+		A3299A7E2061D660008CEC8A /* RGBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBridge.h; sourceTree = "<group>"; };
+		A3299A7F2061D660008CEC8A /* RGBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBridge.m; sourceTree = "<group>"; };
+		A3299A822061D677008CEC8A /* RGEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGEngine.h; sourceTree = "<group>"; };
+		A3299A832061D677008CEC8A /* RGEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGEngine.m; sourceTree = "<group>"; };
+		A3299A862061D685008CEC8A /* RGPerf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGPerf.h; sourceTree = "<group>"; };
+		A3299A872061D685008CEC8A /* RGPerf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGPerf.m; sourceTree = "<group>"; };
+		A3299A8B2061D6C2008CEC8A /* RGUIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGUIWebView.h; sourceTree = "<group>"; };
+		A3299A8C2061D6C2008CEC8A /* RGUIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGUIWebView.m; sourceTree = "<group>"; };
+		A3299A942061D6FB008CEC8A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A3299A962061D712008CEC8A /* RGWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGWKWebView.h; sourceTree = "<group>"; };
+		A3299A972061D712008CEC8A /* RGWKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGWKWebView.m; sourceTree = "<group>"; };
+		A3299A9A2061DAF0008CEC8A /* RGWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGWebView.h; sourceTree = "<group>"; };
+		A3299A9B2061DAF0008CEC8A /* RGWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGWebView.m; sourceTree = "<group>"; };
+		A3299AA22061DC4F008CEC8A /* RGBridgeExcutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBridgeExcutor.h; sourceTree = "<group>"; };
+		A3299AA32061DC4F008CEC8A /* RGBridgeExcutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBridgeExcutor.m; sourceTree = "<group>"; };
+		A3299AA62061DCBE008CEC8A /* RGDemoWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGDemoWebController.h; sourceTree = "<group>"; };
+		A3299AA72061DCBE008CEC8A /* RGDemoWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGDemoWebController.m; sourceTree = "<group>"; };
 		A3AF340220408194002685CB /* RGHybrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGHybrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AF340520408194002685CB /* RGHybrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGHybrid.h; sourceTree = "<group>"; };
 		A3AF340620408194002685CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,9 +75,7 @@
 		A3AF3423204081A2002685CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3AF3425204081A2002685CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A3AF3426204081A2002685CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A3AF3429204081A2002685CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3AF342B204081A2002685CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3AF342E204081A2002685CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3AF3430204081A2002685CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3AF3431204081A2002685CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3299A952061D6FC008CEC8A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +107,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3299A762061D63B008CEC8A /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				A3299A862061D685008CEC8A /* RGPerf.h */,
+				A3299A872061D685008CEC8A /* RGPerf.m */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+		A3299A772061D63B008CEC8A /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A3299A7A2061D658008CEC8A /* RGCache.h */,
+				A3299A7B2061D658008CEC8A /* RGCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		A3299A782061D63B008CEC8A /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				A3299A7E2061D660008CEC8A /* RGBridge.h */,
+				A3299A7F2061D660008CEC8A /* RGBridge.m */,
+				A3299AA22061DC4F008CEC8A /* RGBridgeExcutor.h */,
+				A3299AA32061DC4F008CEC8A /* RGBridgeExcutor.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		A3299A792061D63C008CEC8A /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				A3299A822061D677008CEC8A /* RGEngine.h */,
+				A3299A832061D677008CEC8A /* RGEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		A3299A8A2061D6AC008CEC8A /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A3299A8B2061D6C2008CEC8A /* RGUIWebView.h */,
+				A3299A8C2061D6C2008CEC8A /* RGUIWebView.m */,
+				A3299A962061D712008CEC8A /* RGWKWebView.h */,
+				A3299A972061D712008CEC8A /* RGWKWebView.m */,
+				A3299A9A2061DAF0008CEC8A /* RGWebView.h */,
+				A3299A9B2061DAF0008CEC8A /* RGWebView.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		A3299A932061D6FB008CEC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3299A942061D6FB008CEC8A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3AF33F820408194002685CB = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +173,7 @@
 				A3AF340F20408194002685CB /* RGHybridTests */,
 				A3AF3421204081A2002685CB /* Demo */,
 				A3AF340320408194002685CB /* Products */,
+				A3299A932061D6FB008CEC8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +190,11 @@
 		A3AF340420408194002685CB /* RGHybrid */ = {
 			isa = PBXGroup;
 			children = (
+				A3299A8A2061D6AC008CEC8A /* Widget */,
+				A3299A782061D63B008CEC8A /* Bridge */,
+				A3299A772061D63B008CEC8A /* Cache */,
+				A3299A792061D63C008CEC8A /* Engine */,
+				A3299A762061D63B008CEC8A /* Performance */,
 				A3AF340520408194002685CB /* RGHybrid.h */,
 				A3AF340620408194002685CB /* Info.plist */,
 			);
@@ -118,11 +217,11 @@
 				A3AF3423204081A2002685CB /* AppDelegate.m */,
 				A3AF3425204081A2002685CB /* ViewController.h */,
 				A3AF3426204081A2002685CB /* ViewController.m */,
-				A3AF3428204081A2002685CB /* Main.storyboard */,
 				A3AF342B204081A2002685CB /* Assets.xcassets */,
-				A3AF342D204081A2002685CB /* LaunchScreen.storyboard */,
 				A3AF3430204081A2002685CB /* Info.plist */,
 				A3AF3431204081A2002685CB /* main.m */,
+				A3299AA62061DCBE008CEC8A /* RGDemoWebController.h */,
+				A3299AA72061DCBE008CEC8A /* RGDemoWebController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -134,7 +233,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3299A7C2061D658008CEC8A /* RGCache.h in Headers */,
+				A3299A9C2061DAF0008CEC8A /* RGWebView.h in Headers */,
+				A3299A8D2061D6C2008CEC8A /* RGUIWebView.h in Headers */,
+				A3299A882061D685008CEC8A /* RGPerf.h in Headers */,
 				A3AF341320408194002685CB /* RGHybrid.h in Headers */,
+				A3299AA42061DC4F008CEC8A /* RGBridgeExcutor.h in Headers */,
+				A3299A802061D660008CEC8A /* RGBridge.h in Headers */,
+				A3299A982061D712008CEC8A /* RGWKWebView.h in Headers */,
+				A3299A842061D677008CEC8A /* RGEngine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3AF342F204081A2002685CB /* LaunchScreen.storyboard in Resources */,
 				A3AF342C204081A2002685CB /* Assets.xcassets in Resources */,
-				A3AF342A204081A2002685CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +374,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3299A852061D677008CEC8A /* RGEngine.m in Sources */,
+				A3299A9D2061DAF0008CEC8A /* RGWebView.m in Sources */,
+				A3299A892061D685008CEC8A /* RGPerf.m in Sources */,
+				A3299A7D2061D658008CEC8A /* RGCache.m in Sources */,
+				A3299AA52061DC4F008CEC8A /* RGBridgeExcutor.m in Sources */,
+				A3299A8E2061D6C2008CEC8A /* RGUIWebView.m in Sources */,
+				A3299A992061D712008CEC8A /* RGWKWebView.m in Sources */,
+				A3299A812061D660008CEC8A /* RGBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3299AA82061DCBE008CEC8A /* RGDemoWebController.m in Sources */,
 				A3AF3427204081A2002685CB /* ViewController.m in Sources */,
 				A3AF3432204081A2002685CB /* main.m in Sources */,
 				A3AF3424204081A2002685CB /* AppDelegate.m in Sources */,
@@ -299,25 +413,6 @@
 			targetProxy = A3AF340D20408194002685CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A3AF3428204081A2002685CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3AF3429204081A2002685CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3AF342D204081A2002685CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3AF342E204081A2002685CB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A3AF341420408194002685CB /* Debug */ = {
@@ -441,7 +536,9 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RGHybrid/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ranger.RGHybrid;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -460,7 +557,9 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RGHybrid/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ranger.RGHybrid;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

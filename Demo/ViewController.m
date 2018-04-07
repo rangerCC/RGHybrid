@@ -23,9 +23,9 @@
     self.title = @"Demo";
     
     self.datas = @[
-                   @"RGWebView Demo",
-                   @"Origin UIWebView Demo",
-                   @"origin WKWebView Demo"
+                   @{@"title":@"RGWebView Demo",@"class":@"RGDemoWebController"},
+                   @{@"title":@"Origin UIWebView Demo",@"class":@"RGDemoUIWebViewController"},
+                   @{@"title":@"origin WKWebView Demo",@"class":@"RGDemoWKWebViwController"}
                    ];
     
     self.tableView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -40,14 +40,31 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.row>self.datas.count)
+        return nil;
+    
     static NSString *CellIdentifier;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-    cell.textLabel.text = self.datas[indexPath.row];
+    NSDictionary *info = self.datas[indexPath.row];
+    cell.textLabel.text = info[@"title"];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSInteger row = indexPath.row;
+    
+    if (row >= 0 && row < self.datas.count) {
+        Class cls = NSClassFromString(self.datas[row]);
+        if (cls && [cls isKindOfClass:[UIViewController class]]) {
+            UIViewController *vc = [cls new];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+    }
 }
 
 #pragma mark - Lazy loads

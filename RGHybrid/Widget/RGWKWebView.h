@@ -6,7 +6,7 @@
 //  Copyright © 2018年 ranger. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 @interface RGWKWebView : WKWebView
 

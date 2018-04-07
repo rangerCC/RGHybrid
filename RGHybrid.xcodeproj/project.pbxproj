@@ -25,6 +25,7 @@
 		A3299AA42061DC4F008CEC8A /* RGBridgeExcutor.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299AA22061DC4F008CEC8A /* RGBridgeExcutor.h */; };
 		A3299AA52061DC4F008CEC8A /* RGBridgeExcutor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299AA32061DC4F008CEC8A /* RGBridgeExcutor.m */; };
 		A3299AA82061DCBE008CEC8A /* RGDemoWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299AA72061DCBE008CEC8A /* RGDemoWebController.m */; };
+		A3299AA9206295D5008CEC8A /* RGHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AF340220408194002685CB /* RGHybrid.framework */; };
 		A3AF340C20408194002685CB /* RGHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AF340220408194002685CB /* RGHybrid.framework */; };
 		A3AF341120408194002685CB /* RGHybridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF341020408194002685CB /* RGHybridTests.m */; };
 		A3AF341320408194002685CB /* RGHybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AF340520408194002685CB /* RGHybrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3299AA9206295D5008CEC8A /* RGHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

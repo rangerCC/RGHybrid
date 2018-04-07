@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3299A7C2061D658008CEC8A /* RGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A7A2061D658008CEC8A /* RGCache.h */; };
+		A3299A7C2061D658008CEC8A /* RGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A7A2061D658008CEC8A /* RGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3299A7D2061D658008CEC8A /* RGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A7B2061D658008CEC8A /* RGCache.m */; };
-		A3299A802061D660008CEC8A /* RGBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A7E2061D660008CEC8A /* RGBridge.h */; };
+		A3299A802061D660008CEC8A /* RGBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A7E2061D660008CEC8A /* RGBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3299A812061D660008CEC8A /* RGBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A7F2061D660008CEC8A /* RGBridge.m */; };
-		A3299A842061D677008CEC8A /* RGEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A822061D677008CEC8A /* RGEngine.h */; };
+		A3299A842061D677008CEC8A /* RGEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A822061D677008CEC8A /* RGEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3299A852061D677008CEC8A /* RGEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A832061D677008CEC8A /* RGEngine.m */; };
 		A3299A882061D685008CEC8A /* RGPerf.h in Headers */ = {isa = PBXBuildFile; fileRef = A3299A862061D685008CEC8A /* RGPerf.h */; };
 		A3299A892061D685008CEC8A /* RGPerf.m in Sources */ = {isa = PBXBuildFile; fileRef = A3299A872061D685008CEC8A /* RGPerf.m */; };
@@ -235,15 +235,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3299A7C2061D658008CEC8A /* RGCache.h in Headers */,
 				A3299A9C2061DAF0008CEC8A /* RGWebView.h in Headers */,
+				A3299A842061D677008CEC8A /* RGEngine.h in Headers */,
+				A3299A7C2061D658008CEC8A /* RGCache.h in Headers */,
 				A3299A8D2061D6C2008CEC8A /* RGUIWebView.h in Headers */,
+				A3299A802061D660008CEC8A /* RGBridge.h in Headers */,
 				A3299A882061D685008CEC8A /* RGPerf.h in Headers */,
 				A3AF341320408194002685CB /* RGHybrid.h in Headers */,
 				A3299AA42061DC4F008CEC8A /* RGBridgeExcutor.h in Headers */,
-				A3299A802061D660008CEC8A /* RGBridge.h in Headers */,
 				A3299A982061D712008CEC8A /* RGWKWebView.h in Headers */,
-				A3299A842061D677008CEC8A /* RGEngine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
